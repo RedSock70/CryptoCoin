@@ -16,14 +16,8 @@ namespace CryptoCoin.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            base.OnCreate(savedInstanceState);
-
-            Xamarin.Essentials.Platform.Init(this, savedInstanceState);
-            global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            LoadApplication(new App());
-
             AppCenter.Start("android=71afe2f9-d738-46ea-b638-434da9b341cc",
-                   typeof(Analytics), typeof(Crashes));
+                  typeof(Analytics), typeof(Crashes));
 
             try
             {
@@ -33,6 +27,13 @@ namespace CryptoCoin.Droid
             {
                 Crashes.TrackError(exception);
             }
+            base.OnCreate(savedInstanceState);
+
+            Xamarin.Essentials.Platform.Init(this, savedInstanceState);
+            global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            LoadApplication(new App());
+
+           
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
