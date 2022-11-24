@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CryptoCoin.MainPage">
+
+    <StackLayout>
+        <Image Source="Jasmine.png"></Image>
+        <ListView x:Name="cList">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="{Binding Icon_url}"></Image>
+                            <StackLayout Orientation="Vertical" Padding="0, 0, 0, 0" HorizontalOptions="Center">
+                                <Label Text="{Binding Name}" TextColor="pink"  ></Label>
+                                <Label Text="{Binding Asset_id}" TextColor="pink"  ></Label>
+                            </StackLayout>
+                            <Label Text="{Binding Price_usd, StringFormat='{}{0:c}'}" TextColor="pink"  HorizontalOptions="End"></Label>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Refresh" TextColor="pink" Clicked="Button_Clicked"  BackgroundColor="purple" CornerRadius="40"></Button>
+    </StackLayout>
+
+</ContentPage>

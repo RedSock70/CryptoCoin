@@ -1,0 +1,15 @@
+C:\Users\benhu\Desktop\term 4\coin\CryptoCoin\CryptoCoin\CryptoCoin\bin\Debug\netstandard2.0\CryptoCoin.deps.json
+C:\Users\benhu\Desktop\term 4\coin\CryptoCoin\CryptoCoin\CryptoCoin\bin\Debug\netstandard2.0\CryptoCoin.dll
+C:\Users\benhu\Desktop\term 4\coin\CryptoCoin\CryptoCoin\CryptoCoin\bin\Debug\netstandard2.0\CryptoCoin.pdb
+C:\Users\benhu\Desktop\term 4\coin\CryptoCoin\CryptoCoin\CryptoCoin\obj\Debug\netstandard2.0\CryptoCoin.csproj.AssemblyReference.cache
+C:\Users\benhu\Desktop\term 4\coin\CryptoCoin\CryptoCoin\CryptoCoin\obj\Debug\netstandard2.0\CryptoCoin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benhu\Desktop\term 4\coin\CryptoCoin\CryptoCoin\CryptoCoin\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\benhu\Desktop\term 4\coin\CryptoCoin\CryptoCoin\CryptoCoin\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\benhu\Desktop\term 4\coin\CryptoCoin\CryptoCoin\CryptoCoin\obj\Debug\netstandard2.0\CryptoCoin.AssemblyInfoInputs.cache
+C:\Users\benhu\Desktop\term 4\coin\CryptoCoin\CryptoCoin\CryptoCoin\obj\Debug\netstandard2.0\CryptoCoin.AssemblyInfo.cs
+C:\Users\benhu\Desktop\term 4\coin\CryptoCoin\CryptoCoin\CryptoCoin\obj\Debug\netstandard2.0\CryptoCoin.csproj.CoreCompileInputs.cache
+C:\Users\benhu\Desktop\term 4\coin\CryptoCoin\CryptoCoin\CryptoCoin\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\benhu\Desktop\term 4\coin\CryptoCoin\CryptoCoin\CryptoCoin\obj\Debug\netstandard2.0\CryptoCoin.dll
+C:\Users\benhu\Desktop\term 4\coin\CryptoCoin\CryptoCoin\CryptoCoin\obj\Debug\netstandard2.0\refint\CryptoCoin.dll
+C:\Users\benhu\Desktop\term 4\coin\CryptoCoin\CryptoCoin\CryptoCoin\obj\Debug\netstandard2.0\CryptoCoin.pdb
+C:\Users\benhu\Desktop\term 4\coin\CryptoCoin\CryptoCoin\CryptoCoin\obj\Debug\netstandard2.0\ref\CryptoCoin.dll
