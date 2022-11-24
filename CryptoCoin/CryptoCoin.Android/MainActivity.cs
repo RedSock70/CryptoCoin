@@ -24,6 +24,15 @@ namespace CryptoCoin.Droid
 
             AppCenter.Start("android=71afe2f9-d738-46ea-b638-434da9b341cc",
                    typeof(Analytics), typeof(Crashes));
+
+            try
+            {
+                Crashes.GenerateTestCrash();
+            }
+            catch (Exception exception)
+            {
+                Crashes.TrackError(exception);
+            }
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
