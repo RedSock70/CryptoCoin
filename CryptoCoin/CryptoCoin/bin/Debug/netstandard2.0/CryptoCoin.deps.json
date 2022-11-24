@@ -9,6 +9,8 @@
     ".NETStandard,Version=v2.0/": {
       "CryptoCoin/1.0.0": {
         "dependencies": {
+          "Microsoft.AppCenter.Analytics": "5.0.0",
+          "Microsoft.AppCenter.Crashes": "5.0.0",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json.Bson": "1.0.2",
           "RestSharp": "108.0.3",
@@ -17,6 +19,36 @@
         },
         "runtime": {
           "CryptoCoin.dll": {}
+        }
+      },
+      "Microsoft.AppCenter/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AppCenter.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.0": {
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AppCenter.Analytics.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.0": {
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AppCenter.Crashes.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
@@ -176,6 +208,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.AppCenter/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-psRK1NtE/AuJfMfDKG5Pf/C+kOsjWvVbidAK+lrqi92ucJPs6cS9tJRp83w1UqdhxmbKTjpMqLmVdDsrjXjTKA==",
+      "path": "microsoft.appcenter/5.0.0",
+      "hashPath": "microsoft.appcenter.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.AppCenter.Analytics/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Apw+yG5vRB0CfLRzPPhGg9acr3nrKJWTgN66bWCOmUelfYxR9rqrMEojokO7tlKAkhIyNckI2JR6JY+Sa3tANQ==",
+      "path": "microsoft.appcenter.analytics/5.0.0",
+      "hashPath": "microsoft.appcenter.analytics.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.AppCenter.Crashes/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fsEMhPPj/6Bc8YVT0Pp0guIPpwhmI+HUZrJi2xoavIi6VSQbT25Xp6zN+iWsEQQpAdA2gABOyAm6Szw4EtZVfA==",
+      "path": "microsoft.appcenter.crashes/5.0.0",
+      "hashPath": "microsoft.appcenter.crashes.5.0.0.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
       "type": "package",
