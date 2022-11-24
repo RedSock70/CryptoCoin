@@ -2,6 +2,51 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Microsoft.AppCenter/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
         "type": "package",
         "compile": {
@@ -291,6 +336,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microsoft.AppCenter.Analytics": "5.0.0",
+          "Microsoft.AppCenter.Crashes": "5.0.0",
           "Newtonsoft.Json.Bson": "1.0.2",
           "RestSharp": "108.0.3",
           "Xamarin.Essentials": "1.7.0",
@@ -305,6 +352,51 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Microsoft.AppCenter/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
         "type": "package",
         "compile": {
@@ -594,6 +686,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microsoft.AppCenter.Analytics": "5.0.0",
+          "Microsoft.AppCenter.Crashes": "5.0.0",
           "Newtonsoft.Json.Bson": "1.0.2",
           "RestSharp": "108.0.3",
           "Xamarin.Essentials": "1.7.0",
@@ -608,6 +702,51 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Microsoft.AppCenter/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
         "type": "package",
         "compile": {
@@ -897,6 +1036,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microsoft.AppCenter.Analytics": "5.0.0",
+          "Microsoft.AppCenter.Crashes": "5.0.0",
           "Newtonsoft.Json.Bson": "1.0.2",
           "RestSharp": "108.0.3",
           "Xamarin.Essentials": "1.7.0",
@@ -911,6 +1052,51 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Microsoft.AppCenter/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
         "type": "package",
         "compile": {
@@ -1200,6 +1386,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microsoft.AppCenter.Analytics": "5.0.0",
+          "Microsoft.AppCenter.Crashes": "5.0.0",
           "Newtonsoft.Json.Bson": "1.0.2",
           "RestSharp": "108.0.3",
           "Xamarin.Essentials": "1.7.0",
@@ -1215,6 +1403,114 @@
     }
   },
   "libraries": {
+    "Microsoft.AppCenter/5.0.0": {
+      "sha512": "psRK1NtE/AuJfMfDKG5Pf/C+kOsjWvVbidAK+lrqi92ucJPs6cS9tJRp83w1UqdhxmbKTjpMqLmVdDsrjXjTKA==",
+      "type": "package",
+      "path": "microsoft.appcenter/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.dll",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.xml",
+        "lib/Xamarin.Mac20/Microsoft.AppCenter.dll",
+        "lib/Xamarin.Mac20/Microsoft.AppCenter.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.xml",
+        "lib/net462/Microsoft.AppCenter.dll",
+        "lib/net462/Microsoft.AppCenter.xml",
+        "lib/net472/Microsoft.AppCenter.dll",
+        "lib/net472/Microsoft.AppCenter.xml",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.dll",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.xml",
+        "lib/net6.0-android29.0/appcenter-release.aar",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.dll",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.xml",
+        "lib/net6.0-macos10.10/Microsoft.AppCenter.dll",
+        "lib/net6.0-macos10.10/Microsoft.AppCenter.xml",
+        "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.dll",
+        "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.xml",
+        "lib/netcoreapp3.1/Microsoft.AppCenter.dll",
+        "lib/netcoreapp3.1/Microsoft.AppCenter.xml",
+        "lib/netstandard2.0/Microsoft.AppCenter.dll",
+        "lib/netstandard2.0/Microsoft.AppCenter.xml",
+        "lib/uap10.0.16299/Microsoft.AppCenter.dll",
+        "lib/uap10.0.16299/Microsoft.AppCenter.xml",
+        "microsoft.appcenter.5.0.0.nupkg.sha512",
+        "microsoft.appcenter.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Analytics/5.0.0": {
+      "sha512": "Apw+yG5vRB0CfLRzPPhGg9acr3nrKJWTgN66bWCOmUelfYxR9rqrMEojokO7tlKAkhIyNckI2JR6JY+Sa3tANQ==",
+      "type": "package",
+      "path": "microsoft.appcenter.analytics/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/Xamarin.Mac20/Microsoft.AppCenter.Analytics.dll",
+        "lib/Xamarin.Mac20/Microsoft.AppCenter.Analytics.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.xml",
+        "lib/net462/Microsoft.AppCenter.Analytics.dll",
+        "lib/net462/Microsoft.AppCenter.Analytics.xml",
+        "lib/net472/Microsoft.AppCenter.Analytics.dll",
+        "lib/net472/Microsoft.AppCenter.Analytics.xml",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/net6.0-android29.0/appcenter-analytics-release.aar",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/net6.0-macos10.10/Microsoft.AppCenter.Analytics.dll",
+        "lib/net6.0-macos10.10/Microsoft.AppCenter.Analytics.xml",
+        "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/netcoreapp3.1/Microsoft.AppCenter.Analytics.dll",
+        "lib/netcoreapp3.1/Microsoft.AppCenter.Analytics.xml",
+        "lib/netstandard2.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/netstandard2.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/uap10.0.16299/Microsoft.AppCenter.Analytics.dll",
+        "lib/uap10.0.16299/Microsoft.AppCenter.Analytics.xml",
+        "microsoft.appcenter.analytics.5.0.0.nupkg.sha512",
+        "microsoft.appcenter.analytics.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Crashes/5.0.0": {
+      "sha512": "fsEMhPPj/6Bc8YVT0Pp0guIPpwhmI+HUZrJi2xoavIi6VSQbT25Xp6zN+iWsEQQpAdA2gABOyAm6Szw4EtZVfA==",
+      "type": "package",
+      "path": "microsoft.appcenter.crashes/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/Xamarin.Mac20/Microsoft.AppCenter.Crashes.dll",
+        "lib/Xamarin.Mac20/Microsoft.AppCenter.Crashes.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.xml",
+        "lib/net462/Microsoft.AppCenter.Crashes.dll",
+        "lib/net462/Microsoft.AppCenter.Crashes.xml",
+        "lib/net472/Microsoft.AppCenter.Crashes.dll",
+        "lib/net472/Microsoft.AppCenter.Crashes.xml",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/net6.0-android29.0/appcenter-crashes-release.aar",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/net6.0-macos10.10/Microsoft.AppCenter.Crashes.dll",
+        "lib/net6.0-macos10.10/Microsoft.AppCenter.Crashes.xml",
+        "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/netcoreapp3.1/Microsoft.AppCenter.Crashes.dll",
+        "lib/netcoreapp3.1/Microsoft.AppCenter.Crashes.xml",
+        "lib/netstandard2.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/netstandard2.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/uap10.0.16299/Microsoft.AppCenter.Crashes.dll",
+        "lib/uap10.0.16299/Microsoft.AppCenter.Crashes.xml",
+        "microsoft.appcenter.crashes.5.0.0.nupkg.sha512",
+        "microsoft.appcenter.crashes.nuspec"
+      ]
+    },
     "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
       "sha512": "W8DPQjkMScOMTtJbPwmPyj9c3zYSFGawDW3jwlBOOsnY+EzZFLgNQ/UMkK35JmkNOVPdCyPr2Tw7Vv9N+KA3ZQ==",
       "type": "package",

@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "6NvnC6d+hKJ95BNGqiOcVQradSGEErQYmWeoVHy65GdU1AAoPOeNzwnQHo9zFHpQPqvJPM9R4jyLe8cKNegeZA==",
+  "dgSpecHash": "xGTwLed+5ZdevMdLMEdyG+OJxGuiZOnY/Xw4O9frexYx6FomTVKAVzJpJJHCJa0l/EEWjKby/8HnIjs+HhEOLw==",
   "success": true,
   "projectFilePath": "C:\\Users\\benhu\\Desktop\\term 4\\coin\\CryptoCoin\\CryptoCoin\\CryptoCoin\\CryptoCoin.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\benhu\\.nuget\\packages\\microsoft.appcenter\\5.0.0\\microsoft.appcenter.5.0.0.nupkg.sha512",
+    "C:\\Users\\benhu\\.nuget\\packages\\microsoft.appcenter.analytics\\5.0.0\\microsoft.appcenter.analytics.5.0.0.nupkg.sha512",
+    "C:\\Users\\benhu\\.nuget\\packages\\microsoft.appcenter.crashes\\5.0.0\\microsoft.appcenter.crashes.5.0.0.nupkg.sha512",
     "C:\\Users\\benhu\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\benhu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\benhu\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
